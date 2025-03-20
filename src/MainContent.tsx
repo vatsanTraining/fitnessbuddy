@@ -11,8 +11,8 @@ const MainContent:React.FC<TrainerType> = ({trainer}:TrainerType):JSX.Element =>
         </p>
         <p>        {trainer.tagName}
         </p>
-
-    </div>
+        <p><button type="button" onClick={()=>setCount(prev=>prev+1)}>Click</button></p>
+    </div> 
   )
 }
 
