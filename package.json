@@ -1,8 +1,9 @@
+
 {
   "name": "fitnessbuddy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vatsantraining.github.io/fitnessbuddy/",
+  "homepage": "https://vatsanTraining.github.io/fitnessbuddy/",
   "type": "module",
   "scripts": {
     "predeploy":"npm run build",
