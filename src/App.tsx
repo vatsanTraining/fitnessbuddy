@@ -21,6 +21,7 @@ function App() {
     <>
   <Heading firstLine={'24/7 Fitness Studio'} phoneNumber={982389382}></Heading>
    <MainContent trainer={primaryTrainer}></MainContent>
+   {personalTrainer}
     </>
   )
 }
